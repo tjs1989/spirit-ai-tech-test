@@ -7,7 +7,6 @@ while secondFibNum < numberRange:
     fibonacciList.append(secondFibNum)
     firstFibNum, secondFibNum = secondFibNum, firstFibNum + secondFibNum
 
-
 def checkIfNumberIsMoreThanOneMultiple(number, singleMultipleResponse):
     if (number % 3 == 0) and (number % 5 == 0) and fibonacciList.count(number) > 0:
         return "PinkFlamingo"
@@ -15,7 +14,6 @@ def checkIfNumberIsMoreThanOneMultiple(number, singleMultipleResponse):
         return "FizzBuzz"
     else:
         return singleMultipleResponse
-
 
 for number in range(numberRange):
     number = number + 1
