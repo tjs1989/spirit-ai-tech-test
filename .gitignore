@@ -1,0 +1,6 @@
+# IntelliJ specific files/directories
+.idea
+/*.iml
+
+#mac os filesystem cache
+.DS_Store
